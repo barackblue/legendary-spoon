@@ -1,0 +1,28 @@
+{
+    "WordPress": {
+      "html": ["wp-content", "wordpress"],
+      "paths": ["/wp-login.php", "/wp-admin/"],
+      "headers": ["wp-"]
+    },
+    "Joomla": {
+      "html": ["joomla", "index.php?option="],
+      "paths": ["/administrator/"],
+      "headers": []
+    },
+    "Drupal": {
+      "html": ["drupal", "sites/all/"],
+      "paths": ["/user/login", "/misc/drupal.js"],
+      "headers": []
+    },
+    "Magento": {
+      "html": ["mage-cookies", "Magento"],
+      "paths": ["/index.php/admin/"],
+      "headers": []
+    },
+    "PrestaShop": {
+      "html": ["PrestaShop"],
+      "paths": ["/admin123/", "/modules/"],
+      "headers": []
+    }
+  }
+  
